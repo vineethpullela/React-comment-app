@@ -1,0 +1,92 @@
+.amber {
+  background-color: #f59e0b;
+}
+
+.blue {
+  background-color: #0b69ff;
+}
+
+.orange {
+  background-color: #f97316;
+}
+
+.emerald {
+  background-color: #10b981;
+}
+
+.teal {
+  background-color: #14b8a6;
+}
+
+.red {
+  background-color: #b91c1c;
+}
+
+.light-blue {
+  background-color: #0ea5e9;
+}
+
+.comment-container {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 3px solid #cbd2d9;
+}
+
+.profile-container {
+  display: flex;
+}
+.profile-logo {
+  height: 40px;
+  width: 40px;
+  border-radius: 20px;
+  background-color: #f59e0b;
+  color: #cbd2d9;
+  font-family: 'Roboto';
+  font-size: 15px;
+}
+
+.profile-name {
+  color: #334155;
+  font-family: 'Roboto';
+  font-size: 19px;
+  font-weight: bold;
+}
+.comment-time {
+  color: #94a3b8;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.comment-text {
+  color: #64748b;
+  font-family: 'Roboto';
+  font-size: 19px;
+  padding-left: 15px;
+}
+.like-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.like-button-container {
+}
+.like-img {
+  height: 20px;
+}
+.button {
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+
+.delete-btn {
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.delete-img {
+  height: 20px;
+}
